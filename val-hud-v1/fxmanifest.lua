@@ -1,8 +1,8 @@
 fx_version 'cerulean' 
 game 'gta5'          
 
-author 'VS'   
-description 'VL Hud system V1' 
+author 'VAL'   
+description 'Val Hud system V1' 
 version '1.0.0'      
 
 lua54 'yes'
