@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Val Hud V1 Free</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="playerinfo">
+        <div class="serverinfo">
+            <img class="serverlogo" src="images/serverlogo.png">
+            <p id="js-servername" class="servername">LOADING</p>
+            <p id="js-servergenre" class="servergenre">GENRE</p>
+        </div>
+        <div class="infos">
+            <p id="js-charname" class="info-texts"><i class='bx bxs-user'></i> Player Name</p>
+            <p id="js-id" class="info-texts"><i class='bx bxs-id-card' ></i> ID - 1</p>
+            <p id="js-money" class="info-texts"><i class='bx bxs-wallet' ></i> Cash - $1000</p>
+            <p id="js-job" class="info-texts"><i class='bx bx-street-view'></i> Job - unemployed</p>
+        </div>
+    </div>
+
+    <div id="js-healthbardiv" class="health-bar">
+        <div class="health-bg">
+            <div id="js-healthbar" class="health-show"></div>
+            <img class="healthbar-img" src="images/health.png">
+        </div>
+
+        <div class="armor-bg">
+            <div id="js-armorbar" class="armor-show"></div>
+            <img class="healthbar-img" src="images/armor.png">
+        </div>
+
+        <div class="food-bg">
+            <div id="js-foodbar" class="food-show"></div>
+            <img class="foodbar-img" src="images/food.png">
+        </div>
+
+        <div class="energy-bg">
+            <div id="js-energybar" class="energy-show"></div>
+            <img class="energybar-img" src="images/drink.png">
+        </div>
+    </div>
+
+    <div id="js-cardiv" class="cardiv">
+        <div class="car-fuelbg">
+            <div id="js-carfuel" class="car-fuel"></div>
+            <img class="carfuel-img" src="images/carfuel.png">
+        </div>
+
+        <div id="js-carfast" class="car-fast">0</div>
+        <div id="js-carfast-type" class="car-fast-type">KM/H</div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
